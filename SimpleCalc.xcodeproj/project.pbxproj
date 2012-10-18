@@ -1,298 +1,940 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		BFE2BB49163045CE00309A93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE2BB48163045CE00309A93 /* UIKit.framework */; };
-		BFE2BB4B163045CE00309A93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE2BB4A163045CE00309A93 /* Foundation.framework */; };
-		BFE2BB4D163045CE00309A93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE2BB4C163045CE00309A93 /* CoreGraphics.framework */; };
-		BFE2BB53163045CE00309A93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFE2BB51163045CE00309A93 /* InfoPlist.strings */; };
-		BFE2BB55163045CE00309A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2BB54163045CE00309A93 /* main.m */; };
-		BFE2BB59163045CE00309A93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2BB58163045CE00309A93 /* AppDelegate.m */; };
-		BFE2BB5B163045CE00309A93 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2BB5A163045CE00309A93 /* Default.png */; };
-		BFE2BB5D163045CE00309A93 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2BB5C163045CE00309A93 /* Default@2x.png */; };
-		BFE2BB5F163045CE00309A93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2BB5E163045CE00309A93 /* Default-568h@2x.png */; };
-		BFE2BB62163045CE00309A93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE2BB61163045CE00309A93 /* ViewController.m */; };
-		BFE2BB65163045CE00309A93 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE2BB63163045CE00309A93 /* ViewController.xib */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		BFE2BB44163045CE00309A93 /* SimpleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFE2BB48163045CE00309A93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BFE2BB4A163045CE00309A93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BFE2BB4C163045CE00309A93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BFE2BB50163045CE00309A93 /* SimpleCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCalc-Info.plist"; sourceTree = "<group>"; };
-		BFE2BB52163045CE00309A93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFE2BB54163045CE00309A93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFE2BB56163045CE00309A93 /* SimpleCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCalc-Prefix.pch"; sourceTree = "<group>"; };
-		BFE2BB57163045CE00309A93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BFE2BB58163045CE00309A93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFE2BB5A163045CE00309A93 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BFE2BB5C163045CE00309A93 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BFE2BB5E163045CE00309A93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BFE2BB60163045CE00309A93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFE2BB61163045CE00309A93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BFE2BB64163045CE00309A93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		BFE2BB41163045CE00309A93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFE2BB49163045CE00309A93 /* UIKit.framework in Frameworks */,
-				BFE2BB4B163045CE00309A93 /* Foundation.framework in Frameworks */,
-				BFE2BB4D163045CE00309A93 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		BFE2BB39163045CE00309A93 = {
-			isa = PBXGroup;
-			children = (
-				BFE2BB4E163045CE00309A93 /* SimpleCalc */,
-				BFE2BB47163045CE00309A93 /* Frameworks */,
-				BFE2BB45163045CE00309A93 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		BFE2BB45163045CE00309A93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BFE2BB44163045CE00309A93 /* SimpleCalc.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BFE2BB47163045CE00309A93 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BFE2BB48163045CE00309A93 /* UIKit.framework */,
-				BFE2BB4A163045CE00309A93 /* Foundation.framework */,
-				BFE2BB4C163045CE00309A93 /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BFE2BB4E163045CE00309A93 /* SimpleCalc */ = {
-			isa = PBXGroup;
-			children = (
-				BFE2BB57163045CE00309A93 /* AppDelegate.h */,
-				BFE2BB58163045CE00309A93 /* AppDelegate.m */,
-				BFE2BB60163045CE00309A93 /* ViewController.h */,
-				BFE2BB61163045CE00309A93 /* ViewController.m */,
-				BFE2BB63163045CE00309A93 /* ViewController.xib */,
-				BFE2BB4F163045CE00309A93 /* Supporting Files */,
-			);
-			path = SimpleCalc;
-			sourceTree = "<group>";
-		};
-		BFE2BB4F163045CE00309A93 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BFE2BB50163045CE00309A93 /* SimpleCalc-Info.plist */,
-				BFE2BB51163045CE00309A93 /* InfoPlist.strings */,
-				BFE2BB54163045CE00309A93 /* main.m */,
-				BFE2BB56163045CE00309A93 /* SimpleCalc-Prefix.pch */,
-				BFE2BB5A163045CE00309A93 /* Default.png */,
-				BFE2BB5C163045CE00309A93 /* Default@2x.png */,
-				BFE2BB5E163045CE00309A93 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		BFE2BB43163045CE00309A93 /* SimpleCalc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFE2BB68163045CE00309A93 /* Build configuration list for PBXNativeTarget "SimpleCalc" */;
-			buildPhases = (
-				BFE2BB40163045CE00309A93 /* Sources */,
-				BFE2BB41163045CE00309A93 /* Frameworks */,
-				BFE2BB42163045CE00309A93 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SimpleCalc;
-			productName = SimpleCalc;
-			productReference = BFE2BB44163045CE00309A93 /* SimpleCalc.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		BFE2BB3B163045CE00309A93 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "Guillem Fernandez";
-			};
-			buildConfigurationList = BFE2BB3E163045CE00309A93 /* Build configuration list for PBXProject "SimpleCalc" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = BFE2BB39163045CE00309A93;
-			productRefGroup = BFE2BB45163045CE00309A93 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				BFE2BB43163045CE00309A93 /* SimpleCalc */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		BFE2BB42163045CE00309A93 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFE2BB53163045CE00309A93 /* InfoPlist.strings in Resources */,
-				BFE2BB5B163045CE00309A93 /* Default.png in Resources */,
-				BFE2BB5D163045CE00309A93 /* Default@2x.png in Resources */,
-				BFE2BB5F163045CE00309A93 /* Default-568h@2x.png in Resources */,
-				BFE2BB65163045CE00309A93 /* ViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		BFE2BB40163045CE00309A93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFE2BB55163045CE00309A93 /* main.m in Sources */,
-				BFE2BB59163045CE00309A93 /* AppDelegate.m in Sources */,
-				BFE2BB62163045CE00309A93 /* ViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BFE2BB51163045CE00309A93 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFE2BB52163045CE00309A93 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BFE2BB63163045CE00309A93 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFE2BB64163045CE00309A93 /* en */,
-			);
-			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		BFE2BB66163045CE00309A93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		BFE2BB67163045CE00309A93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BFE2BB69163045CE00309A93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleCalc/SimpleCalc-Prefix.pch";
-				INFOPLIST_FILE = "SimpleCalc/SimpleCalc-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		BFE2BB6A163045CE00309A93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimpleCalc/SimpleCalc-Prefix.pch";
-				INFOPLIST_FILE = "SimpleCalc/SimpleCalc-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		BFE2BB3E163045CE00309A93 /* Build configuration list for PBXProject "SimpleCalc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFE2BB66163045CE00309A93 /* Debug */,
-				BFE2BB67163045CE00309A93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFE2BB68163045CE00309A93 /* Build configuration list for PBXNativeTarget "SimpleCalc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFE2BB69163045CE00309A93 /* Debug */,
-				BFE2BB6A163045CE00309A93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = BFE2BB3B163045CE00309A93 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>03bdfd27b778141bfb03b968</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>calabash.framework</string>
+			<key>path</key>
+			<string>calabash.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2a41a1fb075eb35ef27c5e97</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>cb2eb36c6d6db2ba5b67200f</string>
+				<string>3fd215a12087f79b3f2694c0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3e83ba489f228670eb3df09d</key>
+		<dict>
+			<key>fileRef</key>
+			<string>dc9cff7a381427c8be21bf01</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3fd215a12087f79b3f2694c0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>"$(SRCROOT)"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SimpleCalc/SimpleCalc-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SimpleCalc/SimpleCalc-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>-force_load</string>
+					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
+					<string>-lstdc++</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>43b573e84388c0db3f65f7bb</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB58163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4986d79ecb03415a90ccad86</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB54163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5028df9eadeb7a792ef500e6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SimpleCalc-cal.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>51a3c4f953cddb0eb7923b75</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4986d79ecb03415a90ccad86</string>
+				<string>43b573e84388c0db3f65f7bb</string>
+				<string>8ac9db75ae9ea2f1931c80a8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>768f6059986bce00e910eaab</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2a41a1fb075eb35ef27c5e97</string>
+			<key>buildPhases</key>
+			<array>
+				<string>51a3c4f953cddb0eb7923b75</string>
+				<string>ca04b45c8ce1f06102b86c27</string>
+				<string>d2f512d7da2550a6d164be71</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SimpleCalc-cal</string>
+			<key>productName</key>
+			<string>SimpleCalc-cal</string>
+			<key>productReference</key>
+			<string>5028df9eadeb7a792ef500e6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>7978f600f68cba9d343d9087</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB51163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8151e017383867cc46d60a6d</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB5A163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8520bfda7877e9d4402e7a7a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB4C163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8ac9db75ae9ea2f1931c80a8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB61163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>98dd25e6988664a0c1dae216</key>
+		<dict>
+			<key>fileRef</key>
+			<string>03bdfd27b778141bfb03b968</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB39163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB4E163045CE00309A93</string>
+				<string>BFE2BB47163045CE00309A93</string>
+				<string>BFE2BB45163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB3B163045CE00309A93</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0450</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Guillem Fernandez</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>BFE2BB3E163045CE00309A93</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>BFE2BB39163045CE00309A93</string>
+			<key>productRefGroup</key>
+			<string>BFE2BB45163045CE00309A93</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>BFE2BB43163045CE00309A93</string>
+				<string>768f6059986bce00e910eaab</string>
+			</array>
+		</dict>
+		<key>BFE2BB3E163045CE00309A93</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BFE2BB66163045CE00309A93</string>
+				<string>BFE2BB67163045CE00309A93</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BFE2BB40163045CE00309A93</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BFE2BB55163045CE00309A93</string>
+				<string>BFE2BB59163045CE00309A93</string>
+				<string>BFE2BB62163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BFE2BB41163045CE00309A93</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BFE2BB49163045CE00309A93</string>
+				<string>BFE2BB4B163045CE00309A93</string>
+				<string>BFE2BB4D163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BFE2BB42163045CE00309A93</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BFE2BB53163045CE00309A93</string>
+				<string>BFE2BB5B163045CE00309A93</string>
+				<string>BFE2BB5D163045CE00309A93</string>
+				<string>BFE2BB5F163045CE00309A93</string>
+				<string>BFE2BB65163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BFE2BB43163045CE00309A93</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BFE2BB68163045CE00309A93</string>
+			<key>buildPhases</key>
+			<array>
+				<string>BFE2BB40163045CE00309A93</string>
+				<string>BFE2BB41163045CE00309A93</string>
+				<string>BFE2BB42163045CE00309A93</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SimpleCalc</string>
+			<key>productName</key>
+			<string>SimpleCalc</string>
+			<key>productReference</key>
+			<string>BFE2BB44163045CE00309A93</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>BFE2BB44163045CE00309A93</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SimpleCalc.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BFE2BB45163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB44163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB47163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB48163045CE00309A93</string>
+				<string>BFE2BB4A163045CE00309A93</string>
+				<string>BFE2BB4C163045CE00309A93</string>
+				<string>dc9cff7a381427c8be21bf01</string>
+				<string>03bdfd27b778141bfb03b968</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>path</key>
+			<string></string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB48163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>BFE2BB49163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB48163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB4A163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>BFE2BB4B163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB4A163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB4C163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>BFE2BB4D163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB4C163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB4E163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB57163045CE00309A93</string>
+				<string>BFE2BB58163045CE00309A93</string>
+				<string>BFE2BB60163045CE00309A93</string>
+				<string>BFE2BB61163045CE00309A93</string>
+				<string>BFE2BB63163045CE00309A93</string>
+				<string>BFE2BB4F163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SimpleCalc</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB4F163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB50163045CE00309A93</string>
+				<string>BFE2BB51163045CE00309A93</string>
+				<string>BFE2BB54163045CE00309A93</string>
+				<string>BFE2BB56163045CE00309A93</string>
+				<string>BFE2BB5A163045CE00309A93</string>
+				<string>BFE2BB5C163045CE00309A93</string>
+				<string>BFE2BB5E163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB50163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>SimpleCalc-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB51163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB52163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB52163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB53163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB51163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB54163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB55163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB54163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB56163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SimpleCalc-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB57163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB58163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB59163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB58163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB5A163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB5B163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB5A163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB5C163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB5D163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB5C163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB5E163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default-568h@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB5F163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB5E163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB60163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB61163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB62163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB61163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB63163045CE00309A93</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFE2BB64163045CE00309A93</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>ViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB64163045CE00309A93</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/ViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFE2BB65163045CE00309A93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB63163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BFE2BB66163045CE00309A93</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BFE2BB67163045CE00309A93</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BFE2BB68163045CE00309A93</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BFE2BB69163045CE00309A93</string>
+				<string>BFE2BB6A163045CE00309A93</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BFE2BB69163045CE00309A93</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SimpleCalc/SimpleCalc-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SimpleCalc/SimpleCalc-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BFE2BB6A163045CE00309A93</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SimpleCalc/SimpleCalc-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SimpleCalc/SimpleCalc-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>a01c88e72dec6e1e9e0b4caf</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB5E163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>a46fd72275134a5e97274f2a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB5C163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>bf57fe343b11b6720307904b</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB63163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>c02df00f2fe5dc6cd45ae44e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB4A163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ca04b45c8ce1f06102b86c27</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>ce079b93ae147045568634c9</string>
+				<string>c02df00f2fe5dc6cd45ae44e</string>
+				<string>8520bfda7877e9d4402e7a7a</string>
+				<string>3e83ba489f228670eb3df09d</string>
+				<string>98dd25e6988664a0c1dae216</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>cb2eb36c6d6db2ba5b67200f</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>"$(SRCROOT)"</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SimpleCalc/SimpleCalc-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SimpleCalc/SimpleCalc-Info.plist</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>-force_load</string>
+					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
+					<string>-lstdc++</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>ce079b93ae147045568634c9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE2BB48163045CE00309A93</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>d2f512d7da2550a6d164be71</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7978f600f68cba9d343d9087</string>
+				<string>8151e017383867cc46d60a6d</string>
+				<string>a46fd72275134a5e97274f2a</string>
+				<string>a01c88e72dec6e1e9e0b4caf</string>
+				<string>bf57fe343b11b6720307904b</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>dc9cff7a381427c8be21bf01</key>
+		<dict>
+			<key>FileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CFNetwork.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CFNetwork.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>BFE2BB3B163045CE00309A93</string>
+</dict>
+</plist>
