@@ -57,6 +57,8 @@ BOOL operationInProgress = NO;
             self.secondOperator = [sender.titleLabel.text integerValue];
         else
             self.firstOperator = [sender.titleLabel.text integerValue];
+        
+        self.calculatorScreen.text = sender.titleLabel.text;
     }
 }
 
