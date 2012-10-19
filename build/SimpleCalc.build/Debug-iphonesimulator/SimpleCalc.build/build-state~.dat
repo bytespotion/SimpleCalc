@@ -2,19 +2,19 @@ TSimpleCalc
 v5
 r1
 cCheck dependencies
-cSymLink /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
 cProcessInfoPlistFile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/Info.plist SimpleCalc/SimpleCalc-Info.plist
+cSymLink /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
 cProcessPCH /var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch.pth SimpleCalc/SimpleCalc-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.o /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/AppDelegate.o /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/ViewController.o /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.o /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/SimpleCalc normal i386
 cGenerateDSYMFile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app.dSYM /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/SimpleCalc
-cCopyStringsFile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/InfoPlist.strings SimpleCalc/en.lproj/InfoPlist.strings
 cCpResource SimpleCalc/Default.png Calabash/build/./Calabash.app/Default.png
+cCopyStringsFile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/InfoPlist.strings SimpleCalc/en.lproj/InfoPlist.strings
+cCpResource SimpleCalc/Default@2x.png Calabash/build/./Calabash.app/Default@2x.png
 cCompileXIB /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib
 cCpResource SimpleCalc/Default-568h@2x.png Calabash/build/./Calabash.app/Default-568h@2x.png
-cCpResource SimpleCalc/Default@2x.png Calabash/build/./Calabash.app/Default@2x.png
 cTouch /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
 cStrip /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/SimpleCalc
 cSetOwnerAndGroup guillemfernandez:staff /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
@@ -57,45 +57,40 @@ t1347065914
 s6996
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-t1350576747
-s306
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/Default-568h@2x.png
-t1350574610
-s18594
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/Default.png
-t1350574610
-s6540
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/Default@2x.png
-t1350574610
-s16107
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/Info.plist
-t1350574609
-s804
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/PkgInfo
-t1350574609
-s8
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/SimpleCalc
-t1350574611
-s476612
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/InfoPlist.strings
-t1350574610
-s42
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/ViewController.nib
-t1350576746
-s6062
-
-N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/AppDelegate.h
-c0000000050800E4E000000000000017E
-t1350569550
-s382
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/AppDelegate.m
 c0000000050800E4E0000000000000911
@@ -125,11 +120,6 @@ i<Availability.h>
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
-N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/ViewController.h
-c0000000050800E4E00000000000000E9
-t1350569550
-s233
-
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/ViewController.m
 c0000000050800E4E00000000000001FF
 t1350569550
@@ -141,9 +131,9 @@ t1350569550
 s45
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib
-c00000000508029B40000000000015398
-t1350576564
-s86936
+c0000000050800E4E0000000000001782
+t1350569550
+s6018
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/main.m
 c0000000050800E4E0000000000000162
@@ -151,16 +141,16 @@ t1350569550
 s354
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app
-t3
-s87
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app.dSYM
-t1350574611
-s102
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/AppDelegate.o
-t1350574609
-s89796
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/SimpleCalc.LinkFileList
 c000000005080221100000000000001CA
@@ -168,16 +158,16 @@ t1350574609
 s458
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/ViewController.o
-t1350574609
-s67592
+t2
+s0
 
 N/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.o
-t1350574609
-s3360
+t2
+s0
 
 N/var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch.pth
-t1350574609
-s4840652
+t2
+s0
 
 NSimpleCalc/SimpleCalc-Info.plist
 c0000000050800E4E0000000000000490
@@ -186,7 +176,7 @@ s1168
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies12dda7016230b641^3815b5016230b641^---0#1#0#--18"Check dependencies36"D529E1A6-DB08-477B-A979-85193B4A449C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies89ed22915930b641^9f7333915930b641^---0#1#0#--18"Check dependencies36"B32FCC93-D2E1-4537-9F67-F603FEEBC935-
 
 CCompileC build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/AppDelegate.o /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s372267409.590037
@@ -228,13 +218,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/main.mf93097915930b641^1635ac915930b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/main.m0000000000000000^4098"CompileC build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.o SimpleCalc/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-generated-files.hmap -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-own-target-headers.hmap -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-all-target-headers.hmap -iquote /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-project-headers.hmap -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/DerivedSources/i386 -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/DerivedSources -F/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator -include /var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch -MMD -MT dependencies -MF /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.dia -c /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/main.m -o /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/Objects-normal/i386/main.o36"150D576F-861F-4B2B-80E1-107F3D5AFE82-
 
 CCompileXIB /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib
-s372269546.229109
-e372269547.048994
+s372267410.046047
+e372267411.052165
 r1
 xCompileXIB
 x/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib
-o2012-10-18 17:12:26.699 Interface Builder Cocoa Touch Tool[18104:f07] CFPreferences: user home directory at file://localhost/Users/guillemfernandez/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xibd1c93aea6130b641^978b0ceb6130b641^-249"2012-10-18 17:12:26.699 Interface Builder Cocoa Touch Tool[18104:f07] CFPreferences: user home directory at file://localhost/Users/guillemfernandez/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib0000000000000000^1222"CompileXIB SimpleCalc/en.lproj/ViewController.xib    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/ViewController.nib /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"EE39B8A2-36D8-4356-AD18-002949084EA6-
+o2012-10-18 16:36:50.709 Interface Builder Cocoa Touch Tool[17359:f07] CFPreferences: user home directory at file://localhost/Users/guillemfernandez/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xibace00b925930b641^ad6e0d935930b641^-249"2012-10-18 16:36:50.709 Interface Builder Cocoa Touch Tool[17359:f07] CFPreferences: user home directory at file://localhost/Users/guillemfernandez/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib0000000000000000^1255"CompileXIB SimpleCalc/en.lproj/ViewController.xib    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/ViewController.nib /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"EFD09CAB-D2EC-443D-A996-5834B797CA06-
 
 CCopyStringsFile /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/en.lproj/InfoPlist.strings SimpleCalc/en.lproj/InfoPlist.strings
 s372267410.045997
@@ -314,22 +304,22 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile SimpleCalc/SimpleCalc-Prefix.pchbf4339915930b641^284795915930b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/SimpleCalc-Prefix.pch0000000000000000^4099"ProcessPCH /var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch.pth SimpleCalc/SimpleCalc-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-generated-files.hmap -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-own-target-headers.hmap -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-all-target-headers.hmap -iquote /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/SimpleCalc-project-headers.hmap -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/DerivedSources/i386 -I/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/SimpleCalc.build/Debug-iphonesimulator/SimpleCalc.build/DerivedSources -F/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch.dia -c /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/SimpleCalc/SimpleCalc-Prefix.pch -o /var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5k/9n9lwxxj56vb3n3fzndnkt1m0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/SimpleCalc-Prefix-afjezqimtinelkffnbmogsfftykl/SimpleCalc-Prefix.pch.d36"2211263C-55DF-4B45-8585-A68E1772D6F0-
 
 CSetMode u+w,go-w,a+rX /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-s372269569.790815
-e372269569.796147
+s372267411.113919
+e372267411.121211
 r1
 xSetMode
 xu+w,go-w,a+rX
 x/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"SetMode u+w,go-w,a+rX Calabash/build/./Calabash.appf088ca016230b641^5bd0cb016230b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/0000000000000000^688"SetMode u+w,go-w,a+rX Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app36"C6AA0ED4-0DBA-4C50-BDA8-252FBE011AE4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"SetMode u+w,go-w,a+rX Calabash/build/./Calabash.app0f451d935930b641^89081f935930b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/0000000000000000^721"SetMode u+w,go-w,a+rX Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app36"027A363F-6E8C-483E-A57F-2C3DD19C9BAB-
 
 CSetOwnerAndGroup guillemfernandez:staff /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-s372269569.775830
-e372269569.782652
+s372267411.095969
+e372267411.106068
 r1
 xSetOwnerAndGroup
 xguillemfernandez:staff
 x/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"SetOwnerAndGroup guillemfernandez:staff Calabash/build/./Calabash.app37c6c6016230b641^af5bc8016230b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/0000000000000000^724"SetOwnerAndGroup "guillemfernandez:staff" Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/sbin/chown -RH "guillemfernandez:staff" /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app36"D1DFA05F-3787-461F-8CCD-19B8960B1030-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"SetOwnerAndGroup guillemfernandez:staff Calabash/build/./Calabash.app98a618935930b641^c8281b935930b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/0000000000000000^757"SetOwnerAndGroup "guillemfernandez:staff" Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    /usr/sbin/chown -RH "guillemfernandez:staff" /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app36"0F06231C-1518-44B5-A185-B00B7E210454-
 
 CStrip /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app/SimpleCalc
 s372267411.075460
@@ -349,12 +339,12 @@ x/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Cala
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Process /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app9b7635915930b641^922537915930b641^---0#0#0#--830"SymLink build/Debug-iphonesimulator/Calabash.app Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    /bin/ln -sf /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app36"4C25CA02-DD67-4E69-B6C3-2A31B1C54BCF-
 
 CTouch /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-s372269547.057205
-e372269547.063244
+s372267411.060226
+e372267411.067457
 r1
 xTouch
 x/Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app22c30eeb6130b641^163110eb6130b641^---0#0#0#--661"Touch Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app36"4DD88523-F6BA-4071-83A4-DB8CE419F104-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.appe17f0f935930b641^414511935930b641^---0#0#0#--694"Touch Calabash/build/./Calabash.app    cd /Users/guillemfernandez/Development/Tests/Self/SimpleCalc    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/guillemfernandez/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/guillemfernandez/.rvm/bin:/Users/guillemfernandez/narwhal/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/guillemfernandez/.rvm/bin"    /usr/bin/touch -c /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/Calabash/build/./Calabash.app36"2203FE03-DCB2-4A81-9D90-950781AE9067-
 
 CTouch /Users/guillemfernandez/Development/Tests/Self/SimpleCalc/build/Debug-iphonesimulator/Calabash.app.dSYM
 s372267411.129391
