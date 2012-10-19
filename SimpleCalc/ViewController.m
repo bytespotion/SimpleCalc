@@ -62,6 +62,11 @@
             result =[NSString stringWithFormat:@"%d", self.firstOperator - self.secondOperator];
     }
 
+    if ([self.operationInProgress isEqualToString:@"x"]) {
+        
+        result =[NSString stringWithFormat:@"%d", self.firstOperator * self.secondOperator];
+    }
+
     self.operationInProgress = [NSMutableString stringWithString:@""];
     return result;
 }
