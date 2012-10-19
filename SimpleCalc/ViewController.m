@@ -12,12 +12,11 @@
 
 @property (nonatomic, assign) NSUInteger firstOperator;
 @property (nonatomic, assign) NSUInteger secondOperator;
+@property (nonatomic, strong) NSMutableString* operationInProgress;
 
 @end
 
 @implementation ViewController
-
-BOOL operationInProgress = NO;
 
 - (void)viewDidLoad
 {
@@ -33,6 +32,8 @@ BOOL operationInProgress = NO;
             [buttonView addTarget:self action:@selector(buttonPushed:) forControlEvents:UIControlEventTouchUpInside];
         }
     }
+    
+    self.operationInProgress = [NSMutableString stringWithString:@""];
 
     
 }
@@ -43,20 +44,53 @@ BOOL operationInProgress = NO;
     // Dispose of any resources that can be recreated.
 }
 
+- (NSString *)performOperation
+{
+    NSString* result;
+    
+    result = @"Error";
+    
+    if ([self.operationInProgress isEqualToString:@"+"]) {
+        result =[NSString stringWithFormat:@"%d", self.firstOperator + self.secondOperator];
+    }
+
+    if ([self.operationInProgress isEqualToString:@"-"]) {
+        
+        if (self.secondOperator > self.firstOperator)
+            result = @"0";
+        else
+            result =[NSString stringWithFormat:@"%d", self.firstOperator - self.secondOperator];
+    }
+
+    self.operationInProgress = [NSMutableString stringWithString:@""];
+    return result;
+}
+
+- (void)setOperation:(NSString *)operation
+{
+    self.operationInProgress = [NSString stringWithString:operation];
+    self.calculatorScreen.text = [NSString stringWithFormat:@"%d%@", self.firstOperator, operation];    
+}
 
 - (void)buttonPushed:(UIButton *)sender
 {
     NSLog(@"Pressed button: %@", sender.titleLabel.text);
+
+    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
     
+
     if ([sender.titleLabel.text isEqualToString:@"="]) {
-        self.calculatorScreen.text = [NSString stringWithFormat:@"%d", self.firstOperator + self.secondOperator];
-    } else if ([sender.titleLabel.text isEqualToString:@"+"]) {
-        operationInProgress = YES;
-        self.calculatorScreen.text = [NSString stringWithFormat:@"%d+", self.firstOperator];
+        
+        self.calculatorScreen.text = [self performOperation];
+        
+    } else if (![f numberFromString: sender.titleLabel.text]) { // Used NSNumberFormatter to determine if the button is an operation
+
+        [self setOperation:sender.titleLabel.text];
+
     } else {
-        if (operationInProgress) {
+        if (![self.operationInProgress isEqualToString:@""]) {
             self.secondOperator = [sender.titleLabel.text integerValue];
-            self.calculatorScreen.text = [NSString stringWithFormat:@"%d+%d", self.firstOperator, self.secondOperator];
+            self.calculatorScreen.text = [NSString stringWithFormat:@"%d%@%d", self.firstOperator, self.operationInProgress, self.secondOperator];
         }
         else {
             self.firstOperator = [sender.titleLabel.text integerValue];
