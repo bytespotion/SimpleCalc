@@ -48,17 +48,20 @@ BOOL operationInProgress = NO;
 {
     NSLog(@"Pressed button: %@", sender.titleLabel.text);
     
-    if ([sender.titleLabel.text isEqualToString:@"+"]) {
-        operationInProgress = YES;
-    } else if ([sender.titleLabel.text isEqualToString:@"="]) {
+    if ([sender.titleLabel.text isEqualToString:@"="]) {
         self.calculatorScreen.text = [NSString stringWithFormat:@"%d", self.firstOperator + self.secondOperator];
+    } else if ([sender.titleLabel.text isEqualToString:@"+"]) {
+        operationInProgress = YES;
+        self.calculatorScreen.text = [NSString stringWithFormat:@"%d+", self.firstOperator];
     } else {
-        if (operationInProgress)
+        if (operationInProgress) {
             self.secondOperator = [sender.titleLabel.text integerValue];
-        else
+            self.calculatorScreen.text = [NSString stringWithFormat:@"%d+%d", self.firstOperator, self.secondOperator];
+        }
+        else {
             self.firstOperator = [sender.titleLabel.text integerValue];
-        
-        self.calculatorScreen.text = sender.titleLabel.text;
+            self.calculatorScreen.text = sender.titleLabel.text;
+        }        
     }
 }
 
